@@ -1,0 +1,256 @@
+.navbar{
+    font-family: 'Limelight', sans-serif;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 75px;
+    width: 1690px;
+}
+
+.gridform{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1rem;
+    grid-template-areas: 
+    "first first first first"
+    "first first first first"
+    "first first first first";
+}
+
+/* .circle1{
+    height: 400px;
+    width: 400px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+*/
+
+.lime{
+    background-color: mediumvioletred;
+    grid-area:first;
+}
+
+.llight{
+    grid-area: ltitle;
+    color: whitesmoke;
+    font-family: 'Limelight',sans-serif;
+    font-size: 45px;
+    position: relative;
+    left: 150px;
+    top: 40px;
+    width: 1200px;
+    text-align: center;
+}
+
+.lpara{
+    grid-area: lpar;
+    background-color: mediumvioletred;
+    font-family: 'Limelight',sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    width: 875px;
+    position: relative;
+    left:700px;
+    top: -10px;
+
+}
+
+.rway{
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    position: relative;
+    left: 100px;
+    top: -75px;
+}
+
+.rpara{
+    color: whitesmoke;
+    font-family: 'Raleway',sans-serif;
+    font-size: 25px;
+    width: 900px;
+    position: relative;
+    left: 175px;
+    top: -120px;
+}
+
+.p{
+    color: whitesmoke;
+    font-family: 'Limelight', sans-serif;
+}
+
+.gridform2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1rem;
+    grid-template-areas: 
+    "second second second second"
+    "second second second second"
+    "second second second second";
+}
+
+.character{
+    background-color: palevioletred;
+    grid-area:second;
+}
+
+.style{
+    color: whitesmoke;
+    font-family: 'Limelight', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    align-items: center;
+    width: 1690px;
+    position: relative;
+    top: 55px;
+    text-align: center;
+}
+
+.gridform3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1rem;
+    grid-template-areas: 
+    "third third third third"
+    "third third third third"
+    "third third third third";
+}
+
+.Display{
+    background-color: mediumvioletred;
+    grid-area: third;
+}
+
+.m{
+    font-size: 120px;
+    font-style: normal;
+    font-family: 'Limelight',sans-serif;
+    color: whitesmoke;
+    position: relative;
+    left: 76px;
+}
+
+.s{
+    font-size: 54px;
+    font-style: bold;
+    font-family: 'Raleway',sans-serif;
+    color: whitesmoke;
+    position: relative;
+    right: 13px;
+}
+
+.a{
+    font-size: 189px;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 85px;
+    right: 103px;
+}
+
+.ar{
+    font-size: 31px;
+    font-style: oblique;
+    font-family: 'Limelight', sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 300px;
+    right: 170px;
+}
+
+.gridform4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1rem;
+    grid-template-areas: 
+    "fourth fourth fourth fourth"
+    "fourth fourth fourth fourth"
+    "fourth fourth fourth fourth";
+}
+
+.BC{
+    background-color: palevioletred;
+    grid-area: fourth;
+}
+
+.opt1{
+    color: whitesmoke;
+    font-family: "Raleway",sans-serif;
+    font-style: italic;
+    position: relative;
+    font-size: 16px;
+    left: 105px;
+    top: 215px;
+    width: 240px;
+}
+.opt2{
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-style: oblique;
+    font-size: 28px;
+    position: relative;
+    left: 132px;
+    top: 134px;
+    width: 600px;
+    text-align: right;
+}
+
+.opt3{
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    position: relative;
+    width: 800px;
+}
+
+.opt4{
+    color:whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 450px;
+    position: relative;
+    right: 600px;
+    top: 175px;
+    font-size: 35px;
+
+}
+
+.gridform5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1rem;
+    grid-template-areas: 
+    "fifth fifth fifth fifth"
+    "fifth fifth fifth fifth"
+    "fifth fifth fifth fifth";
+}
+
+.IC{
+    background-color: mediumvioletred;
+    grid-area: fifth;
+}
+
+.way1{
+    color: whitesmoke;
+    font-family: "Raleway", sans-serif;
+}
+
+.way2{
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+.way3{
+    color: whitesmoke;
+    font-family: 'Raleway',sans-serif;
+    font-style: oblique;
+}
